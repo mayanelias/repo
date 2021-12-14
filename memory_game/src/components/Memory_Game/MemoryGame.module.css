@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+.memoryGame {
+display: grid;
+grid-template-columns: repeat(3, 13%);
+gap: 30px;
+justify-content: center;
+margin-top: 2%;
+}
+.time {
+  color:red;
+  text-align: center;
+  margin-left: -50px;
+}
+.title {
+text-align: center;
+  color:rgba(255, 255, 0, 0.966);
+  font-family: fantasy;
+}
+.moves {
+  color:red;
+  margin-left: 25px;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.startGame{
+border: none;
+border-radius: 50%;
+background-color: whitesmoke;
+font-family: fantasy;
+font-size: 30px;
+color: red;
+}
+.gif{
+height: 120px;
+width: 120px;
+margin-left: 15px;
+}
+.history{
+    border: none;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    font-family: fantasy;
+    font-size: 30px;
+    color: red;
+    }
+
